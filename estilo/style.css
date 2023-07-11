@@ -80,6 +80,7 @@ section.funcao{
     padding-top: 100px;
     padding-bottom: 100px ;
     padding-left: 30px;
+    padding-right: 30px;
     margin: 0px;
     text-align: center;
     font-size: 30px;  
@@ -105,6 +106,7 @@ section.samba{
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 30px;
+    padding-right: 30px;
     line-height: 3em;
     box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.507);
 }
@@ -135,6 +137,7 @@ section.alucinacao{
     padding-top: 100px;
     padding-bottom: 100px ;
     padding-left: 30px;
+    padding-right: 30px;
     margin: 0px;
     text-align: center;
     font-size: 30px;  
@@ -167,6 +170,7 @@ section.cantico{
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 30px;
+    padding-right: 30px;
     line-height: 3em;
     box-shadow: inset 2px 2px 20px 0px rgba(0, 0, 0, 0.507);
 }
