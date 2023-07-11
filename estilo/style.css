@@ -83,12 +83,12 @@ section.funcao{
     padding-right: 50px;
     margin: 0px;
     text-align: center;
-    font-size: 30px;  
+    font-size: 20px;  
 }
 section.funcao > h2{
     font-weight: normal;
     font-family: var(--fonte1);
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
     padding-left: 30px;
     padding-bottom: 20px;
@@ -123,7 +123,7 @@ section.samba > p{
     box-shadow: 4px 7px 20px 0px rgba(0, 0, 0, 0.432);
     background-color: rgba(0, 0, 0, 0.178);
     text-align: justify;
-    font-size: 30px;
+    font-size: 20px;
     padding: 40px;
     border-radius: 20px;
     color: rgb(255, 217, 217);
@@ -140,7 +140,7 @@ section.alucinacao{
     padding-right: 50px;
     margin: 0px;
     text-align: center;
-    font-size: 30px;  
+    font-size: 20px;  
 }
 section.alucinacao > h2{
     font-weight: normal;
@@ -154,14 +154,14 @@ section.alucinacao > h2{
 
 strong{
     color: white;
-    font-size: 60px;
+    font-size: 25px;
     font-weight: normal;
 }
 section.alucinacao > p{
     text-align: center;
     padding-left: 20px;
     padding-right: 0px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     color: rgb(0, 0, 0);
 }
 
@@ -186,7 +186,7 @@ section.cantico > p{
     box-shadow: 4px 7px 20px 0px rgba(0, 0, 0, 0.432);
     background-color: rgba(0, 0, 0, 0.178);
     text-align: justify;
-    font-size: 30px;
+    font-size: 20px;
     padding: 40px;
     border-radius: 20px;
     color: rgb(255, 217, 217);
