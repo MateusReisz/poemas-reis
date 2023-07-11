@@ -176,7 +176,7 @@ section.cantico{
 }
 section#img2{
     background-image: url(../imagens/maos.jpg);
-    background-position: right center;
+    background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     box-shadow:inset 2px 2px 20px 0px rgba(0, 0, 0, 0.555);
