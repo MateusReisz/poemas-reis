@@ -19,7 +19,7 @@
 }
 html, body{
     margin:auto;
-    min-width: 100vh;
+    min-width:;
     font-family: var(--fonte1);
     background-color: #FFFFFF;
 }
@@ -36,7 +36,7 @@ header{
 header > h1{
     font-family: var(--fonte2);
     font-variant: small-caps;
-    font-size: 10vw;
+    font-size: 20.5vh;
     text-align: justify;
     padding-left: 20px;
     display: inline-block;
@@ -46,19 +46,20 @@ header > p{
     color: #420707;
     width: auto;
     font-family: var(--fonte3);
-    font-size: 4vw;
+    font-size: 50px;
+    font-weight: bold;
     padding-left: 30px;
     display: block;
 }
 .aa{
     text-align: end;
     padding-right: 80px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
 .ba{
     text-align: end;
     padding-right: 80px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
 .ca{
     text-align: end;
@@ -67,46 +68,77 @@ header > p{
 }
 a{
     text-decoration: none;
-    color: rgb(32, 19, 7);
-    font-size: 2vw;
+    color: rgb(29, 3, 2);
+    font-size: 20.5px;
 }
 a:hover{
-    background-color: rgb(170, 0, 0);
-    border-radius: 10px;
-    padding: 5px;
-    text-decoration: underline;
+    background-color: rgb(59, 22, 3);
+    border-radius: 20px;
+    padding: 8px;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.459);
+    transition-duration: 0.5s;
 }
 
 main{
     padding-left: 0px;
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
     width: auto;
+    box-shadow: 1px -8px 20px 0px rgba(0, 0, 0, 0.356);
 }
 
-section.normal{
-    padding-left: 0px;
-    padding-top: 20px;
-    padding: 20px;
-    background-color: #420707;
-    color: rgb(0, 0, 0);
-    text-align: justify;
-    font-size: 1.5em;
+section.alma{
+    line-height: 2em;
+    padding-top: 100px;
+    padding-bottom: 100px ;
+    padding-left: 30px;
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;  
 }
-section.normal > p{
+section.alma > h2{
+    font-weight: normal;
+    font-family: var(--fonte1);
+    font-size: 40px;
+    text-align: center;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    color: rgb(51, 0, 0);
+}
+section.alma > p{
+    text-align: center;
     padding-left: 20px;
-    padding-bottom: 10px;
-}
-section.imagem{
+    padding-right: 0px;
+    padding-bottom: 15px;
     color: rgb(0, 0, 0);
-    text-align: justify;
-    padding-top: 10px;
-    padding-bottom: 50px;
-    font-size: 1.5em;
-    margin: auto;
 }
-section.imagem  > p{
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 2px;
-    margin: 10px;
+section.samba{
+    background-color: rgb(255, 255, 255); 
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    line-height: 3em;
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.507);
+}
+section#img1{
+    background-image: url(../imagens/redentor.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+section.samba > p{
+    display: inline-block;
+    box-shadow: 4px 7px 20px 0px rgba(0, 0, 0, 0.432);
+    background-color: rgba(0, 0, 0, 0.178);
+    text-align: justify;
+    font-size: 30px;
+    padding: 40px;
+    border-radius: 20px;
+    color: rgb(255, 217, 217);
+}
+strong{
+    color: white;
+    font-size: 60px;
+    font-weight: normal;
 }
