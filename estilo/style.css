@@ -9,7 +9,6 @@
 
 
 *{
-    min-width: 300px;
     margin: 0px;
     padding: 0px;
 }
@@ -36,7 +35,7 @@ header{
 header > h1{
     font-family: var(--fonte2);
     font-variant: small-caps;
-    font-size: 20.5vh;
+    font-size: 200px;
     text-align: justify;
     padding-left: 20px;
     display: inline-block;
